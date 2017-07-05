@@ -8,4 +8,18 @@
   <modules>
   	<module>awssms</module>
   </modules>
+  <properties>
+  	<spring.boot.maven.plugin>1.5.4.RELEASE</spring.boot.maven.plugin>
+  </properties>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.springframework.boot</groupId>
+  			<artifactId>spring-boot-dependencies</artifactId>
+  			<version>1.5.4.RELEASE</version>
+  			<type>pom</type>
+  			<scope>import</scope>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>
