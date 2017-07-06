@@ -10,6 +10,7 @@
   </modules>
   <properties>
   	<spring.boot.maven.plugin>1.5.4.RELEASE</spring.boot.maven.plugin>
+  	<amazon.aws.sns>1.11.158</amazon.aws.sns>
   </properties>
   <dependencyManagement>
   	<dependencies>
@@ -19,6 +20,11 @@
   			<version>1.5.4.RELEASE</version>
   			<type>pom</type>
   			<scope>import</scope>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.amazonaws</groupId>
+  			<artifactId>aws-java-sdk-sns</artifactId>
+  			<version>${amazon.aws.sns}</version>
   		</dependency>
   	</dependencies>
   </dependencyManagement>
