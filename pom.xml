@@ -7,6 +7,8 @@
   <name>Aws Project parent</name>
   <modules>
   	<module>awssms</module>
+  	<module>aws-iot-google-home</module>
+  	<module>aws-core</module>
   </modules>
   <properties>
   	<spring.boot.maven.plugin>1.5.4.RELEASE</spring.boot.maven.plugin>
